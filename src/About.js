@@ -3,6 +3,11 @@ import './About.css';
 import aboutImg from './images/IMG_2044.jpg';
 
 function About() {
+   //  Up To Top Btn
+   window.addEventListener("scroll", function(){
+    const upToTop = document.querySelector("a.bottom__to__top");
+     upToTop.classList.toggle("active", window.scrollY > 0)
+  });
     return(
         <div className="about component_space">
             <div className="container">
