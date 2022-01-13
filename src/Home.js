@@ -2,6 +2,10 @@ import React from "react";
 import './Home.css';
 
 function Home() {
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+    header.classList.toggle("active", window.scrollY > 0);
+  });
   return (
     <div className="home" id="Home">
       <div className="home__bg">
