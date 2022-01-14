@@ -1,6 +1,7 @@
 import React from "react";
 import './About.css';
 import aboutImg from './images/IMG_2044.jpg';
+import './Contact.js';
 
 function About() {
    //  Up To Top Btn
@@ -44,7 +45,7 @@ function About() {
                 <a href="././CV_SasankaVitharana.pdf">
                   <button className="about btn pointer">Download CV</button>
                 </a>
-                <a href="https://www.linkedin.com/in/sasanka-vitharana-607768181/">
+                <a href="Contact.js">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>

@@ -1,6 +1,9 @@
 .contact {
   background-color: #191919;
 }
+.contact__box {
+  padding-left: 40px;
+}
 h1.hire__text {
   font-size: 60px;
   padding-bottom: 25px;
@@ -50,4 +53,5 @@ textarea#message {
 }
 button.btn.contact.pointer {
   margin: 20px 0px;
+  width: 100%;
 }
