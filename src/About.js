@@ -18,6 +18,11 @@ function About() {
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
+            <p className="about__text p__color">
+              I studied at Ananda Maithreya Central College Balangoda. I passed my
+              Advance Level Examination with 3 C passes by doing Combined Maths, 
+              Physics and Information Communication Technology.
+              </p>
               <p className="about__text p__color">
               I'm currently an undergraduate student through BSc. 
               Statistics & Operation Research, four-year special degree program 
@@ -36,7 +41,7 @@ function About() {
 
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="CV.pdf">
+                <a href="././CV_SasankaVitharana.pdf">
                   <button className="about btn pointer">Download CV</button>
                 </a>
                 <a href="https://www.linkedin.com/in/sasanka-vitharana-607768181/">
@@ -47,7 +52,7 @@ function About() {
           </div>
         </div>
       </div>
-        </div>
+      </div>
     )
 }
 
