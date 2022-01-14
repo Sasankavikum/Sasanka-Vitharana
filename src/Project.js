@@ -65,7 +65,7 @@ function Project() {
                        <div className="project__meta absolute">
                        <h5 className="project__text">Personal Website</h5>
                        <h4 className="project__text">Website for my works.</h4>
-                       <a href="#" className="project__btn">View Details</a>
+                       <a href="./App.js" className="project__btn">View Details</a>
                        </div>
                    </div>
                </div>

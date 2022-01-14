@@ -15,16 +15,16 @@ function Home() {
               <a href="#Home">
                 <li className="nav__items mx__15">Home</li>
               </a>
-              <a href="#About">
+              <a href="./About.js">
                 <li className="nav__items mx__15">About</li>
               </a>
-              <a href="#Services">
+              <a href="./Services.js">
                 <li className="nav__items mx__15">Services</li>
               </a>
-              <a href="#Blog">
-                <li className="nav__items mx__15">Blog</li>
+              <a href="./Project.js">
+                <li className="nav__items mx__15">Project</li>
               </a>
-              <a href="#Contact">
+              <a href="./Contact.js">
                 <li className="nav__items mx__15">Contact</li>
               </a>
             </ul>
