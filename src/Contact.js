@@ -2,10 +2,17 @@ import React from 'react';
 import './Contact.css';
 import contactImg from "./images/IMG_2235.JPG";
 import emailjs from 'emailjs-com';
+import { useForm } from 'react-hook-form';
 
 const Mailer = () => {
 
-    function sentEmail(e) {
+    const {
+        handleSubmit,register
+      } = useForm({
+          mode: "onBlur"
+      });
+
+    function sentEmail(event,e) {
         e.preventDefault();
         emailjs.sendForm(
             'service_yps6atl',
@@ -15,6 +22,7 @@ const Mailer = () => {
             ).then(res=>{
                 console.log(res);
             }).catch(err=>console.log(err));
+            e.target.reset();
     }
 
     return (
@@ -23,24 +31,25 @@ const Mailer = () => {
                 <div className="col__2">
                     <div className="contact__box">
                         <div className="contact__meta">
-                            <h1 className="hire__text">Hire Me.</h1>
-                            <p className="hire__text white">I am available for freelancer. Connect with me via phone:</p>
-                           <p className="hire__text white"><strong>+94779885690</strong> or email <strong>sasavikum@gmail.com</strong></p>
+                            <h1 className="hire__text">Hire Me</h1>
+                            <p className="hire__text white">I am available for freelancer. Connect with me via</p>
+                           <p className="hire__text white">Phone :  <strong>+94779885690</strong></p>
+                           <p className="hire__text white">Email  : <strong>sasavikum@gmail.com</strong></p>
                         </div>
                         <div className="input__box">
-                        <form className="form" onSubmit={sentEmail}>
+                        <form className="form" onSubmit={handleSubmit(sentEmail)}>
                            <input type="text" 
                            className="contact name" 
-                           id="name" 
+                           id="name" name="name"
                            placeholder="Your name" 
 
                                />
                            <input type="text" 
-                           className="contact email" 
+                           className="contact email" name="email"
                            id="email" 
                            placeholder="Your Email" 
                            />
-                           <input type="text" 
+                           <input type="text" name="subject" 
                            className="contact subject" 
                            id="subject" 
                            placeholder="Write the Subject" 

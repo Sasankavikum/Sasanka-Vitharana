@@ -3,6 +3,7 @@
 }
 .contact__box {
   padding-left: 40px;
+  border-radius: 10px;
 }
 h1.hire__text {
   font-size: 60px;

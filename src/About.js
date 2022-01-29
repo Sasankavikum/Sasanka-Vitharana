@@ -10,7 +10,7 @@ function About() {
      upToTop.classList.toggle("active", window.scrollY > 0)
   });
     return(
-        <div className="about component_space">
+        <div className="about component_space" id="About">
             <div className="container">
         <div className="row">
           <div className="col__2">
@@ -20,32 +20,32 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
             <p className="about__text p__color">
-              I studied at Ananda Maithreya Central College Balangoda. I passed my
-              Advance Level Examination with 3 C passes by doing Combined Maths, 
-              Physics and Information Communication Technology.
+            My name is Sasanka Vitharana. I am currently reading BSc. Statistic & Operation 
+            Research four-year specialized degree in the University of Peradeniya. The degree program 
+            consists of Operation Research, Statistics, Computer Science, and Mathematics 
+            as subjects. And the same time I am an undergraduate student in BSc. (Hons) in Information 
+              Technology four-year specialized degree in Sri Lanka Institute of Information 
+              Technology. It consists of Computer Science subjects.
               </p>
               <p className="about__text p__color">
-              I'm currently an undergraduate student through BSc. 
-              Statistics & Operation Research, four-year special degree program 
-              in University Of Peradeniya. The degree program is mainly focused 
-              in Operations Research, Statistics, Computer Science and Mathematics. 
+              I did my schooling at Ananda Maithreya Central College Balangoda. I did my 
+              Advance Level in Physical Science stream by doing Combined Mathematics, Physics, 
+              and Information & Communication Technology with 3 C passes.
               </p>
               <p className="about__text p__color">
-              And also I’m an undergraduate student through BSc (Hons) in Information 
-              Technology four-year special degree program in Sri Lanka Institute of 
-              Information Technology (SLIIT). It mainly forcused Computer Science subjects.
+              As a programmer, I am extremely passionate about different computer languages. 
+              I have skills in C, JAVA, Flutter, React, PYTHON, HTML, CSS, JavaScript, MySQL. 
+              I also have experience in Lingo, RStudio, SSPSS, and Microsoft Packages.
               </p>
               <p className="about__text p__color">
-              As a programmer, I'm skilled on languages 
-              like C, JAVA, Flutter, React, PYTHON, HTML, CSS, JavaScript, MySQL. Also 
-              I have experience on working with Lingo, RStudio, SSPSS, Microsoft Package,
-
+              I request you to go through my profile and consider my skills based on your 
+              requirements. I assure you that I will not fail your decision.
               </p>
               <div className="about__button d__flex align__items__center">
                 <a href="././CV_SasankaVitharana.pdf">
                   <button className="about btn pointer">Download CV</button>
                 </a>
-                <a href="Contact.js">
+                <a href="#Contact">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>

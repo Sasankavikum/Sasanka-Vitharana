@@ -7,7 +7,7 @@ import Project3 from './images/personal.png';
 
 function Project() {
     return (
-      <div className="project component__space" id="Portfolio">
+      <div className="project component__space" id="Project">
         <div className="heading">
           <h1 className="heading">My Latest Project</h1>
           <p className="heading p__color">
