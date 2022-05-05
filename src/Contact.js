@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import contactImg from "./images/IMG_2235.JPG";
+import contactImg from "./images/2022_03_27_20_26_IMG_2049.jpg";
 import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
 
@@ -34,6 +34,7 @@ const Mailer = () => {
                             <h1 className="hire__text">Hire Me</h1>
                             <p className="hire__text white">I am available for freelancer. Connect with me via</p>
                            <p className="hire__text white">Phone :  <strong>+94779885690</strong></p>
+                           <p className="hire__text white">WhatsApp :  <strong>+94704370692</strong></p>
                            <p className="hire__text white">Email  : <strong>sasavikum@gmail.com</strong></p>
                         </div>
                         <div className="input__box">

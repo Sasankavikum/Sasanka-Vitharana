@@ -3,6 +3,9 @@ import './Project.css';
 import Project1 from './images/travel.jpeg';
 import Project2 from './images/redCross.png';
 import Project3 from './images/personal.png';
+import Project4 from './images/home.png';
+import Project5 from './images/get-2.png';
+import Project6 from './images/vaccine.png';
 
 
 function Project() {
@@ -65,7 +68,57 @@ function Project() {
                        <div className="project__meta absolute">
                        <h5 className="project__text">Personal Website</h5>
                        <h4 className="project__text">Website for my works.</h4>
-                       <a href="./App.js" className="project__btn">View Details</a>
+                       <a href="https://sasanka.me/" className="project__btn">View Details</a>
+                       </div>
+                   </div>
+               </div>
+
+               <div className="col__3">
+                   <div className="project__box pointer relative">
+                       <div className="project__box__img pointer relative">
+                           <div className="project__img__box">
+                               <img src={Project4} alt="" className="project__img" />
+                           </div>
+                           <div className="mask__effect"></div>
+                       </div>
+                       <div className="project__meta absolute">
+                       <h5 className="project__text">E-Net -English Learning Platform</h5>
+                       <h4 className="project__text">Web page</h4>
+                       <a href="https://rslup.github.io/2021g2r1/" className="project__btn">View Details</a>
+                       </div>
+                   </div>
+               </div>
+  
+  
+               <div className="col__3">
+                   <div className="project__box pointer relative">
+                       <div className="project__box__img pointer relative">
+                           <div className="project__img__box">
+                               <img src={Project5} alt="" className="project__img" />
+                           </div>
+                           <div className="mask__effect"></div>
+                       </div>
+                       <div className="project__meta absolute">
+                       <h5 className="project__text">ElectroGrid</h5>
+                       <h4 className="project__text">API for ElectroGrid Company</h4>
+                       <a href="https://github.com/Sasankavikum/ElectroGrid.git" className="project__btn">View Details</a>
+                       </div>
+                   </div>
+               </div>
+  
+  
+               <div className="col__3">
+                   <div className="project__box pointer relative">
+                       <div className="project__box__img pointer relative">
+                           <div className="project__img__box">
+                               <img src={Project6} alt="" className="project__img" />
+                           </div>
+                           <div className="mask__effect"></div>
+                       </div>
+                       <div className="project__meta absolute">
+                       <h5 className="project__text">Vaccine Support Service System</h5>
+                       <h4 className="project__text">Web based project for vaccine Service</h4>
+                       <a href="https://github.com/Sasankavikum/Vaccination.git" className="project__btn">View Details</a>
                        </div>
                    </div>
                </div>
