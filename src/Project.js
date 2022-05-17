@@ -4,7 +4,7 @@ import Project1 from './images/travel.jpeg';
 import Project2 from './images/redCross.png';
 import Project3 from './images/personal.png';
 import Project4 from './images/home.png';
-import Project5 from './images/get-2.png';
+import Project5 from './images/home_electogrid.png';
 import Project6 from './images/vaccine.png';
 
 
@@ -101,7 +101,7 @@ function Project() {
                        <div className="project__meta absolute">
                        <h5 className="project__text">ElectroGrid</h5>
                        <h4 className="project__text">API for ElectroGrid Company</h4>
-                       <a href="https://github.com/Sasankavikum/ElectroGrid.git" className="project__btn">View Details</a>
+                       <a href="https://github.com/Sasankavikum/ElectroGrid-Individual" className="project__btn">View Details</a>
                        </div>
                    </div>
                </div>
