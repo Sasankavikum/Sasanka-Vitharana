@@ -42,7 +42,7 @@ function About() {
               requirements. I assure you that I will not fail your decision.
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="././CV-SasankaVikum.pdf">
+                <a href="././SASANKA VITHARANA.pdf">
                   <button className="about btn pointer">Download CV</button>
                 </a>
                 <a href="#Contact">
